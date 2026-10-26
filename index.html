@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b1020">
+<meta name="description" content="Wiki educativa sobre los sistemas de dirección automotriz: tipos, componentes, ventajas, desventajas e historia.">
+<title>DirecciónLab | Wiki automotriz</title>
+<style>
+:root{--bg:#080d19;--panel:#101a2b;--panel2:#142238;--line:#263852;--text:#edf4ff;--muted:#a9bad2;--blue:#55c7ff;--cyan:#66f0e3;--violet:#a99aff;--shadow:0 18px 55px #0005}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:radial-gradient(ellipse at 15% 0%,#132b4b 0,transparent 35%),var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}a{color:var(--blue)}button,input{font:inherit}.topbar{position:sticky;top:0;z-index:10;background:#080d19eF;border-bottom:1px solid var(--line);backdrop-filter:blur(14px)}.nav{max-width:1180px;margin:auto;padding:12px 22px;display:flex;align-items:center;gap:18px}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--text);font-weight:850;letter-spacing:.2px;white-space:nowrap}.brand-mark{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,var(--blue),var(--cyan));color:#06111c;font-weight:950}.navlinks{display:flex;gap:16px;margin-left:auto;align-items:center}.navlinks a{text-decoration:none;color:var(--muted);font-size:.92rem}.navlinks a:hover{color:var(--blue)}.menu-btn{display:none;background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:10px;padding:7px 11px}.wrap{max-width:1180px;margin:auto;padding:0 22px}.hero{padding:72px 0 48px;display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center}.eyebrow{color:var(--cyan);text-transform:uppercase;font-size:.76rem;font-weight:800;letter-spacing:2px}.hero h1{font-size:clamp(2.5rem,6vw,5rem);line-height:1.02;letter-spacing:-2px;margin:14px 0 20px}.gradient{background:linear-gradient(100deg,var(--blue),var(--cyan),var(--violet));color:transparent;background-clip:text}.hero p{color:var(--muted);font-size:1.1rem;max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;padding:11px 17px;border-radius:12px;text-decoration:none;font-weight:750;border:1px solid var(--line);background:var(--panel);color:var(--text);cursor:pointer}.btn.primary{background:linear-gradient(100deg,var(--blue),var(--cyan));color:#07111d;border:0}.hero-art{background:linear-gradient(145deg,#132944,#0b1425);border:1px solid #2a4667;border-radius:28px;padding:18px;box-shadow:var(--shadow);overflow:hidden}.hero-art svg{width:100%;height:auto;display:block}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 48px}.stat{padding:17px;border:1px solid var(--line);background:#0d1727;border-radius:16px}.stat b{font-size:1.35rem;color:var(--cyan);display:block}.stat span{color:var(--muted);font-size:.88rem}.section{padding:34px 0 48px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:22px}.section h2{font-size:clamp(1.65rem,3vw,2.5rem);line-height:1.15;margin:7px 0}.section-intro{color:var(--muted);max-width:700px;margin:0}.search{width:min(100%,320px);padding:11px 14px;border-radius:12px;background:var(--panel);border:1px solid var(--line);color:var(--text);outline:none}.search:focus{border-color:var(--blue)}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.card{background:linear-gradient(160deg,#111d30,#0c1423);border:1px solid var(--line);border-radius:20px;padding:21px;min-width:0;box-shadow:0 8px 30px #0002}.card h3{margin:7px 0 8px;font-size:1.25rem}.card p{color:var(--muted);margin:8px 0}.tag{display:inline-block;font-size:.75rem;font-weight:800;letter-spacing:.3px;color:var(--cyan);background:#163441;padding:4px 9px;border-radius:999px}.diagram{margin:15px 0;border-radius:14px;background:#08101d;border:1px solid #20344e;padding:10px}.diagram img{width:100%;max-height:210px;object-fit:contain;display:block}.twocol{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}.pros,.cons{border-radius:13px;padding:13px;background:#102a28;border:1px solid #1b4944}.cons{background:#2a1b25;border-color:#4b2b3b}.pros h4,.cons h4{margin:0 0 6px;font-size:.92rem}.pros ul,.cons ul{padding-left:18px;margin:0;color:var(--muted);font-size:.9rem}.parts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.part{border:1px solid var(--line);background:var(--panel);padding:15px;border-radius:15px}.part b{display:block;color:var(--blue);margin-bottom:5px}.part p{color:var(--muted);font-size:.92rem;margin:0}.timeline{position:relative;margin:20px 0 0;padding-left:25px}.timeline:before{content:"";position:absolute;left:6px;top:7px;bottom:8px;width:2px;background:linear-gradient(var(--blue),var(--violet))}.event{position:relative;padding:0 0 24px 15px}.event:before{content:"";position:absolute;left:-24px;top:7px;width:10px;height:10px;border-radius:50%;background:var(--cyan);box-shadow:0 0 0 4px #153341}.year{font-weight:900;color:var(--cyan);letter-spacing:.5px}.event p{color:var(--muted);margin:4px 0}.note{padding:17px 18px;border:1px solid #31506e;border-radius:15px;background:#10233a;color:#c9d9ed}.sources li{margin:8px 0;color:var(--muted);overflow-wrap:anywhere}.sources a{overflow-wrap:anywhere}.footer{margin-top:28px;border-top:1px solid var(--line);padding:25px 0 40px;color:var(--muted);font-size:.9rem}.empty{display:none;color:var(--muted);padding:20px}.hidden{display:none!important}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:45px}.hero-art{max-width:560px}.navlinks{display:none;position:absolute;left:12px;right:12px;top:62px;background:#0c1525;border:1px solid var(--line);padding:16px;border-radius:14px;flex-direction:column;align-items:stretch}.navlinks.open{display:flex}.menu-btn{display:block;margin-left:auto}.section-head{align-items:stretch;flex-direction:column}.search{width:100%}.parts{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.wrap{padding:0 15px}.nav{padding:10px 15px}.hero h1{letter-spacing:-1.2px}.stats{gap:8px}.stat{padding:12px}.stat b{font-size:1.1rem}.stat span{font-size:.78rem}.grid,.twocol{grid-template-columns:1fr}.parts{grid-template-columns:1fr}.card{padding:17px}.section{padding:25px 0 35px}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <nav class="nav" aria-label="Navegación principal">
+    <a class="brand" href="#inicio"><span class="brand-mark">D↗</span><span>Dirección<span class="gradient">Lab</span></span></a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navlinks">☰ Menú</button>
+    <div class="navlinks" id="navlinks">
+      <a href="#tipos">Tipos</a><a href="#partes">Componentes</a><a href="#historia">Historia</a><a href="#fuentes">Fuentes</a>
+    </div>
+  </nav>
+</header>
+<main>
+<section class="wrap hero" id="inicio">
+  <div>
+    <div class="eyebrow">Wiki automotriz · Edición 01</div>
+    <h1>Todo empieza con una <span class="gradient">dirección.</span></h1>
+    <p>Explora cómo el automóvil transforma el giro del volante en el movimiento de las ruedas. Conoce los sistemas, sus componentes y la evolución de esta tecnología.</p>
+    <div class="actions"><a class="btn primary" href="#tipos">Explorar sistemas <span>↘</span></a><a class="btn" href="#historia">Ver línea del tiempo</a></div>
+  </div>
+  <div class="hero-art" aria-label="Ilustración esquemática de un sistema de dirección">
+  <svg viewBox="0 0 500 330" role="img" aria-labelledby="arttitle">
+    <title id="arttitle">Esquema estilizado de un sistema de dirección</title>
+    <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#55c7ff"/><stop offset="1" stop-color="#66f0e3"/></linearGradient></defs>
+    <g fill="none" stroke="#294765" stroke-width="1"><path d="M20 55H480M20 105H480M20 155H480M20 205H480M20 255H480M70 20V310M130 20V310M190 20V310M250 20V310M310 20V310M370 20V310M430 20V310"/></g>
+    <g transform="translate(250 160)">
+      <circle r="66" stroke="url(#g)" stroke-width="6" fill="#0b1728"/>
+      <circle r="48" stroke="#2c5475" stroke-width="3"/>
+      <circle r="12" fill="url(#g)"/>
+      <path d="M0-12V-45M-10 7L-40 30M10 7L40 30" stroke="#8be9ff" stroke-width="7" stroke-linecap="round"/>
+      <path d="M0 66V108" stroke="#66f0e3" stroke-width="8" stroke-linecap="round"/>
+      <rect x="-100" y="108" width="200" height="27" rx="8" fill="#132944" stroke="#55c7ff" stroke-width="2"/>
+      <path d="M-160 122H-100M100 122H160" stroke="#66f0e3" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="-165" cy="122" r="12" fill="#132944" stroke="#55c7ff" stroke-width="4"/>
+      <circle cx="165" cy="122" r="12" fill="#132944" stroke="#55c7ff" stroke-width="4"/>
+    </g>
+    <g fill="#a9bad2" font-size="11" font-family="system-ui"><text x="20" y="30">VOLANTE</text><text x="20" y="302">RUEDAS DIRECTRICES</text><text x="332" y="285">ESQUEMA ILUSTRATIVO</text></g>
+  </svg>
+  </div>
+</section>
+<section class="wrap stats" aria-label="Resumen de la wiki">
+  <div class="stat"><b>4 tipos</b><span>De sistemas principales</span></div>
+  <div class="stat"><b>7 piezas</b><span>Componentes esenciales</span></div>
+  <div class="stat"><b>130+ años</b><span>De evolución del automóvil</span></div>
+</section>
+<section class="wrap section" id="tipos">
+  <div class="section-head"><div><div class="eyebrow">Catálogo técnico</div><h2>Tipos de dirección automotriz</h2><p class="section-intro">Busca por nombre o palabra clave. Los diagramas son esquemas educativos, no planos para reparación.</p></div><input class="search" id="search" type="search" placeholder="Buscar sistema..." aria-label="Buscar tipo de dirección"></div>
+  <div class="grid" id="systemGrid">
+    <article class="card searchable" data-keywords="mecánica manual cremallera piñón caja dirección">
+      <span class="tag">01 · Sin asistencia</span><h3>Dirección mecánica</h3>
+      <p>La fuerza del conductor se transmite mediante piezas mecánicas, como la columna, los engranajes y la cremallera. No utiliza una bomba hidráulica ni un motor eléctrico de asistencia.</p>
+      <div class="diagram"><img src="assets/mecanica.svg" alt="Diagrama simplificado de dirección mecánica por volante, columna, piñón y cremallera"></div>
+      <p><b>Cómo funciona:</b> el giro del volante mueve la columna y el mecanismo transforma ese giro en un desplazamiento que orienta las ruedas.</p>
+      <div class="twocol"><div class="pros"><h4>✓ Ventajas</h4><ul><li>Diseño sencillo.</li><li>Menos componentes y mantenimiento relativamente simple.</li><li>No consume energía para asistencia.</li></ul></div><div class="cons"><h4>! Desventajas</h4><ul><li>Mayor esfuerzo al estacionar.</li><li>Puede resultar pesada en vehículos grandes.</li><li>El esfuerzo depende de la geometría y los neumáticos.</li></ul></div></div>
+    </article>
+    <article class="card searchable" data-keywords="hidráulica bomba fluido presión depósito mangueras asistencia">
+      <span class="tag">02 · Asistencia por fluido</span><h3>Dirección hidráulica</h3>
+      <p>Una bomba presuriza el fluido y ayuda a mover el mecanismo de dirección. En muchos diseños tradicionales, la bomba recibe movimiento del motor mediante una correa.</p>
+      <div class="diagram"><img src="assets/hidraulica.svg" alt="Diagrama educativo de bomba, depósito, líneas hidráulicas y cremallera"></div>
+      <p><b>Cómo funciona:</b> una válvula dirige el fluido a presión para apoyar el movimiento según el giro aplicado al volante.</p>
+      <div class="twocol"><div class="pros"><h4>✓ Ventajas</h4><ul><li>Reduce mucho el esfuerzo al girar.</li><li>Respuesta conocida en numerosos vehículos.</li><li>Apta para vehículos que requieren asistencia elevada.</li></ul></div><div class="cons"><h4>! Desventajas</h4><ul><li>Puede presentar fugas de fluido.</li><li>Requiere revisar bomba, mangueras y nivel.</li><li>La bomba puede consumir energía continuamente.</li></ul></div></div>
+    </article>
+    <article class="card searchable" data-keywords="electrohidráulica ehps bomba eléctrica fluido hidráulico motor eléctrico">
+      <span class="tag">03 · Bomba eléctrica</span><h3>Dirección electrohidráulica</h3>
+      <p>Combina asistencia hidráulica con una bomba accionada por un motor eléctrico, en lugar de depender directamente de una correa conectada al motor de combustión.</p>
+      <div class="diagram"><img src="assets/electrohidraulica.svg" alt="Diagrama simplificado de motor eléctrico que acciona una bomba hidráulica"></div>
+      <p><b>Cómo funciona:</b> un motor eléctrico impulsa la bomba hidráulica y el circuito de fluido ayuda a orientar las ruedas.</p>
+      <div class="twocol"><div class="pros"><h4>✓ Ventajas</h4><ul><li>La asistencia puede controlarse electrónicamente.</li><li>La bomba no depende directamente de una correa del motor.</li><li>Permite adaptar el funcionamiento a la demanda.</li></ul></div><div class="cons"><h4>! Desventajas</h4><ul><li>Conserva fluido y componentes hidráulicos.</li><li>Añade motor, cableado y control eléctrico.</li><li>La reparación puede ser más especializada.</li></ul></div></div>
+    </article>
+    <article class="card searchable" data-keywords="eléctrica eps motor sensor unidad control electrónica asistencia">
+      <span class="tag">04 · Asistencia eléctrica</span><h3>Dirección eléctrica (EPS)</h3>
+      <p>Un motor eléctrico aporta la asistencia y una unidad de control utiliza señales de sensores para calcular cuánta ayuda proporcionar. Puede ubicarse en la columna, el piñón o la cremallera.</p>
+      <div class="diagram"><img src="assets/electrica.svg" alt="Diagrama de dirección eléctrica con sensor, unidad de control y motor de asistencia"></div>
+      <p><b>Cómo funciona:</b> los sensores detectan el esfuerzo o el giro y el control activa el motor para asistir al conductor.</p>
+      <div class="twocol"><div class="pros"><h4>✓ Ventajas</h4><ul><li>Consume energía principalmente cuando se necesita asistencia.</li><li>No requiere fluido hidráulico.</li><li>Puede integrarse con ayudas electrónicas a la conducción.</li></ul></div><div class="cons"><h4>! Desventajas</h4><ul><li>Depende de sensores, electrónica y alimentación eléctrica.</li><li>El diagnóstico puede necesitar equipo especializado.</li><li>El costo de ciertos componentes puede ser elevado.</li></ul></div></div>
+    </article>
+  </div>
+  <p class="empty" id="empty">No se encontraron sistemas con ese término. Prueba con “eléctrica”, “bomba” o “cremallera”.</p>
+</section>
+<section class="wrap section" id="partes">
+  <div class="eyebrow">Anatomía del sistema</div><h2>Partes principales</h2><p class="section-intro">La configuración exacta cambia según el vehículo y el tipo de dirección.</p>
+  <div class="parts" style="margin-top:22px">
+    <div class="part"><b>Volante</b><p>Interfaz que utiliza el conductor para indicar el cambio de dirección.</p></div>
+    <div class="part"><b>Columna de dirección</b><p>Transmite el giro del volante hacia el mecanismo; suele incorporar elementos de seguridad y articulaciones.</p></div>
+    <div class="part"><b>Piñón y cremallera</b><p>Convierten el movimiento giratorio en desplazamiento lineal en muchos vehículos.</p></div>
+    <div class="part"><b>Barras y terminales</b><p>Transmiten el movimiento del mecanismo hacia las manguetas o brazos de dirección.</p></div>
+    <div class="part"><b>Bomba y depósito</b><p>En sistemas hidráulicos, suministran y almacenan el fluido utilizado para la asistencia.</p></div>
+    <div class="part"><b>Motor eléctrico y sensores</b><p>En sistemas EPS, el motor aporta asistencia y los sensores envían información al control electrónico.</p></div>
+  </div>
+  <div class="note" style="margin-top:18px"><b>Dato importante:</b> “mecánica, hidráulica, electrohidráulica y eléctrica” describe principalmente cómo se transmite o asiste el esfuerzo. “Cremallera y piñón” y “recirculación de bolas” describen mecanismos, por lo que son otra forma de clasificar la dirección.</div>
+</section>
+<section class="wrap section" id="historia">
+  <div class="eyebrow">De la fuerza humana al control electrónico</div><h2>Línea del tiempo</h2><p class="section-intro">Una selección breve de hitos. No existe una única fecha que represente el “descubrimiento” de toda la dirección automotriz: los mecanismos evolucionaron durante décadas.</p>
+  <div class="card" style="margin-top:22px">
+    <div class="timeline">
+      <div class="event"><div class="year">Finales del siglo XIX</div><p>Los primeros automóviles experimentan con distintos mecanismos para orientar las ruedas. Los diseños mecánicos se convierten en la base de los sistemas posteriores.</p></div>
+      <div class="event"><div class="year">Alrededor de 1900</div><p>El volante circular se generaliza en los automóviles, sustituyendo soluciones de mando menos prácticas en muchos diseños.</p></div>
+      <div class="event"><div class="year">1920s</div><p>Francis W. Davis desarrolla un sistema práctico de dirección asistida hidráulica, pensado para reducir el esfuerzo de maniobra.</p></div>
+      <div class="event"><div class="year">1951</div><p>El Chrysler Imperial ofrece dirección asistida hidráulica en un automóvil de producción estadounidense, ayudando a popularizar la tecnología.</p></div>
+      <div class="event"><div class="year">Finales de 1980s</div><p>La asistencia eléctrica empieza a llegar a automóviles de producción. En 1988 se introduce un sistema EPS en un vehículo ligero japonés.</p></div>
+      <div class="event"><div class="year">1990s–2000s</div><p>La dirección eléctrica se extiende a más modelos por su eficiencia y por la posibilidad de integrarse con sistemas electrónicos de asistencia al conductor.</p></div>
+      <div class="event"><div class="year">Siglo XXI</div><p>Se desarrollan sistemas avanzados, dirección variable y tecnologías steer-by-wire, que transmiten las órdenes de dirección mediante señales electrónicas en aplicaciones específicas.</p></div>
+    </div>
+  </div>
+</section>
+<section class="wrap section" id="fuentes">
+  <div class="eyebrow">Para seguir investigando</div><h2>Fuentes y referencias</h2>
+  <p class="section-intro">Referencias introductorias para comprobar los hitos históricos y ampliar la información técnica.</p>
+  <div class="card sources" style="margin-top:20px">
+    <ol>
+      <li>IEEE Technology Navigator. (s. f.). <i>Power steering</i>. <a href="https://technav.ieee.org/topic/power-steering/" target="_blank" rel="noopener noreferrer">https://technav.ieee.org/topic/power-steering/</a></li>
+      <li>MOTOR. (2018). <i>Power Surge: EPS Goes Mainstream</i>. <a href="https://www.motor.com/magazine-summary/power-surge-eps-goes-mainstream-june-2018/" target="_blank" rel="noopener noreferrer">https://www.motor.com/magazine-summary/power-surge-eps-goes-mainstream-june-2018/</a></li>
+      <li>JTEKT. (2016). <i>Future Trends for Automotive Steering Systems</i>. <a href="https://www.jtekt.co.jp/e/engineering-journal/assets/1013/1013e_02.pdf" target="_blank" rel="noopener noreferrer">Artículo técnico en PDF</a></li>
+      <li>Thyssenkrupp Automotive Technology. (s. f.). <i>Steering Gear: Past, Present and Future</i>. <a href="https://www.thyssenkrupp-automotive-technology.com/en/stories/steering-gear-past-present-future" target="_blank" rel="noopener noreferrer">Artículo técnico</a></li>
+    </ol>
+    <p><b>Nota editorial:</b> el contenido es educativo y resume características generales. La arquitectura, el mantenimiento y los procedimientos dependen del fabricante y del modelo del vehículo.</p>
+  </div>
+</section>
+</main>
+<footer class="footer"><div class="wrap">DirecciónLab · Wiki educativa de sistemas de dirección automotriz <span style="float:right">Versión 1.0</span></div></footer>
+<script>
+const menuBtn=document.getElementById('menuBtn');
+const navlinks=document.getElementById('navlinks');
+menuBtn.addEventListener('click',()=>{const open=navlinks.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));});
+navlinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navlinks.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');}));
+const search=document.getElementById('search');
+const cards=[...document.querySelectorAll('.searchable')];
+const empty=document.getElementById('empty');
+search.addEventListener('input',()=>{const q=search.value.trim().toLocaleLowerCase('es');let shown=0;cards.forEach(card=>{const match=(card.innerText+' '+card.dataset.keywords).toLocaleLowerCase('es').includes(q);card.classList.toggle('hidden',!match);if(match)shown++;});empty.style.display=shown?'none':'block';});
+</script>
+</body>
+</html>
